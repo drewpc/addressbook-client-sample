@@ -4,7 +4,6 @@ import { SWRConfig } from "swr";
 import {customFetcher} from "../components/customFetcher";
 
 export default function App({Component, pageProps}: AppProps) {
-    console.log('App pageProps: ', pageProps);
     return (
         <SWRConfig value={{
             fetcher: customFetcher,

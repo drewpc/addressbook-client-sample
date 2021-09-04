@@ -3,5 +3,5 @@ interface ApiListUsers {
     limit: number,
     more: boolean,
     total: number | null,
-    users: Array<ApiUser>,
+    users: ApiUser[],
 }
