@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Contact Method component does not render a push notification contact 1`] = `null`;
+
+exports[`User Contact Method component renders a phone contact 1`] = `
+<li>
+  [phone] 
+  Mobile
+   -  
+  <a
+    href="tel:+17205551212"
+  >
+    +1 720 555 1212
+  </a>
+</li>
+`;
+
+exports[`User Contact Method component renders an email contact 1`] = `
+<li>
+  [email] 
+  Home
+   -  
+  <a
+    href="mailto:user@email.com"
+  >
+    user@email.com
+  </a>
+</li>
+`;
+
+exports[`User Contact Method component renders an sms contact 1`] = `
+<li>
+  [sms] 
+  Mobile
+   - 
+  +1 720 555 1212
+</li>
+`;
